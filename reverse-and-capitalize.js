@@ -12,6 +12,7 @@ function reverseCapitalize(str) {
 // is a comma - use join('') to join elems w/o separator)
 
 // Alternate method:
+// https://www.samanthaming.com/tidbits/12-split-string-using-spread/
 // function reverseCapitalize(str) {
 // 	return [...str].reverse().join('').toUpperCase()
 // }
