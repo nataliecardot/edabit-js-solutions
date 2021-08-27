@@ -2,11 +2,16 @@
 // https://edabit.com/challenge/nBW6ubsQCurPvhpWc
 
 function reverseCapitalize(str) {
-	return str.toUpperCase().split('').reverse().join('')
+  return str.toUpperCase().split('').reverse().join('');
 }
 
 // 1) uppercase
 // 2) split into array of single letters (substrings) ('')
 // 3) reverse the array (no method to reverse a string)
 // 4) join array elems into string with join() (default separator for join()
-	// is a comma - use join('') to join elems w/o separator)
+// is a comma - use join('') to join elems w/o separator)
+
+// Alternate method:
+// function reverseCapitalize(str) {
+// 	return [...str].reverse().join('').toUpperCase()
+// }
