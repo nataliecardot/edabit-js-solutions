@@ -1,6 +1,8 @@
 // Reverse and Capitalize
 // https://edabit.com/challenge/nBW6ubsQCurPvhpWc
 
+// Create a function that takes a string of lowercase characters and returns that string reversed and in upper case.
+
 function reverseCapitalize(str) {
   return str.toUpperCase().split('').reverse().join('');
 }
