@@ -29,4 +29,4 @@ function volumeOfBox(sizes) {
 
 ## Additional Notes
 
-Volume is length _ width _ height.
+Volume is length × width × height.
