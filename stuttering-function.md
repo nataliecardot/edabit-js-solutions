@@ -24,5 +24,3 @@ function stutter(word) {
   return repeat + repeat.concat(word) + '?';
 }
 ```
-
-## Additional Notes
